@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Gateway" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_gateway</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Gateway</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Gateway</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Gateway</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Gateway</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Gateway</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_gateway</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_gateway</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Gateway</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Gateway.Widget</item>
+
+    </style>
+
+    <!-- Light.DarkActionBar specific -->
+    <style name="Theme.Gateway.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Gateway</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Gateway</item>
+    </style>
+
+</resources>

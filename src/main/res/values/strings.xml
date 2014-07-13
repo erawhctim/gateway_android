@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gateway</string>
+
+    <!-- Used for accessibility -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- menu actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <!-- Nav. Drawer actions -->
+    <string name="login_title">Login</string>
+    <string name="username_title">$1%s</string>
+    <string name="listings_title">Listings</string>
+    <string name="all_listings_title">All Listings</string>
+    <string name="my_listings_title">My Listings</string>
+
+    <!-- login Page -->
+    <string name="login_page_title">@string/app_name</string>
+    <string name="login_page_subtitle">Helping you get stuff done</string>
+
+    <string name="login_page_login_btn_idle">Login</string>
+    <string name="login_page_login_btn_success">Success</string>
+    <string name="login_page_login_btn_error">Error</string>
+
+    <string name="login_page_sign_up_btn_idle">Sign Up</string>
+    <string name="login_page_username_hint">Username</string>
+    <string name="login_page_password_hint">Password</string>
+
+</resources>

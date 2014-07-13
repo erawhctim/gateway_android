@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/login_page_padding_top">
+
+    <TextView
+        android:id="@+id/login_page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/login_page_title_size"
+        android:text="@string/login_page_title"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/login_page_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_page_title"
+        android:paddingBottom="@dimen/login_page_subtitle_padding_bottom"
+        android:textSize="@dimen/login_page_subtitle_size"
+        android:text="@string/login_page_subtitle"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        style="@style/EditTextDarkBlue"
+        android:id="@+id/login_page_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_page_subtitle"
+        android:layout_alignLeft="@id/login_page_subtitle"
+        android:layout_alignRight="@id/login_page_subtitle"
+        android:lines="1"
+        android:inputType="text"
+        android:hint="@string/login_page_username_hint"/>
+
+    <EditText
+        style="@style/EditTextDarkBlue"
+        android:id="@+id/login_page_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_page_username"
+        android:layout_alignLeft="@id/login_page_subtitle"
+        android:layout_alignRight="@id/login_page_subtitle"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:hint="@string/login_page_password_hint"/>
+
+    <com.gateway.view.SuccessErrorButton
+        android:id="@+id/login_page_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_page_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/login_page_login_btn_margin_top"
+        android:paddingTop="@dimen/login_page_login_btn_padding_top"
+        android:paddingBottom="@dimen/login_page_login_btn_padding_bottom"
+        android:paddingLeft="@dimen/login_page_login_btn_padding_left"
+        android:paddingRight="@dimen/login_page_login_btn_padding_right"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:cpb_cornerRadius="2dp"
+        app:cpb_textIdle="@string/login_page_login_btn_idle"
+        app:cpb_colorIdle="@color/gateway_primary"
+        app:cpb_iconComplete="@drawable/ic_action_tick"
+        app:cpb_colorComplete="@color/gateway_accent"
+        app:cpb_iconError="@drawable/ic_action_cancel"
+        app:cpb_colorError="@color/red" />
+
+</RelativeLayout>

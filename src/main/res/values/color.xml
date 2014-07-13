@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+
+    <color name="gateway_primary">#2c3e50</color>
+    <color name="gateway_secondary">#202d3b</color>
+    <color name="gateway_accent">#18bc9c</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+</resources>

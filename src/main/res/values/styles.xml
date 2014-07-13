@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBar.Solid.Gateway" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_gateway</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_gateway</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_gateway</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Gateway</item>
+        <item name="android:icon">@drawable/ic_action_logo</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Gateway" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_gateway</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Gateway</item>
+    </style>
+
+    <style name="PopupMenu.Gateway" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_gateway</item>
+    </style>
+
+    <style name="DropDownListView.Gateway" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_gateway</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Gateway" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_gateway</item>
+    </style>
+
+    <style name="DropDownNav.Gateway" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_gateway</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_gateway</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_gateway</item>
+    </style>
+
+    <style name="ProgressBar.Gateway" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_gateway</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Gateway" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_gateway</item>
+    </style>
+
+    <style name="ButtonDarkBlue" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/darkblue_btn_default_holo_light</item>
+    </style>
+
+    <style name="SpinnerDarkBlue" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/darkblue_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/darkblue_list_selector_holo_light</item>
+    </style>
+
+    <style name="EditTextDarkBlue" parent="android:Widget.Holo.EditText">
+        <item name="android:background">@drawable/darkblue_edit_text_holo_light</item>
+    </style>
+
+</resources>
