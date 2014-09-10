@@ -14,10 +14,10 @@ I'd love to add [RxJava][7] support, proper unit tests, and even some UI animati
 * [Otto][5]
 
 
-[1]: www.github.com/erawhctim/gateway_web
-[2]: www.github.com/square/dagger
-[3]: www.github.com/square/retrofit
-[4]: www.github.com/jakewharton/butterknife
-[5]: www.github.com/square/otto
+[1]: https://github.com/erawhctim/gateway_web
+[2]: https://github.com/square/dagger
+[3]: https://github.com/square/retrofit
+[4]: https://github.com/jakewharton/butterknife
+[5]: https://github.com/square/otto
 [6]: https://github.com/erawhctim/gateway_web/blob/master/gateway_api.py
 [7]: https://github.com/ReactiveX/rxjava
