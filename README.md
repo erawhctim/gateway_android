@@ -1,6 +1,6 @@
 ##Gateway Android Client
 
-This is the android client for [Gateway][1], an online craigslist-like marketplace for people looking to exchange services and help eachother out. It was built by me and two other students during out CS 4261 Mobile Apps & Services class. 
+This is the android client for [Gateway][1], an online craigslist-like marketplace for people looking to exchange services and help eachother out. It was built by me and two other students during our CS 4261 Mobile Apps & Services class. 
 
 The app is far from feature complete, as it can only log in and view listings from the [Gateway API][6], but it demonstrates how to architect android apps using Dagger, separate common providers into logical sub-modules, and effortlessly interact with REST APIs using Retrofit. 
 
